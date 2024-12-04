@@ -808,7 +808,12 @@ table td:last-child {
   margin-top: 40px;
 }
 
-.footer__menu {
+.footer__content {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.footer .footer__menu {
   display: flex;
   justify-content: space-between;
 
