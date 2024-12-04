@@ -978,3 +978,17 @@ table td:last-child {
   color: #ffffff;
   padding: 9px;
 }
+
+.main .main__arrow {
+  display: inline-block;
+  position: absolute;
+
+  width: 48px;
+  height: 48px;
+  right: 200px;
+  bottom: 40px;
+  background: url(../images/main/double-arrow.svg) no-repeat center center /
+    contain;
+
+  z-index: 100;
+}
