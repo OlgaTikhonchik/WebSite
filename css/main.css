@@ -246,6 +246,10 @@ article > h3,
 }
 
 .header__button-login {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
   min-width: 88px;
   background: rgba(255, 255, 255, 0.17);
 }
