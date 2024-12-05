@@ -179,7 +179,13 @@ article > h3,
   position: relative;
   flex: 0 0 113px;
   margin-right: 147px;
+  transition: all 0.5s;
 }
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
 .logo img {
   display: block;
   position: relative;
@@ -208,6 +214,11 @@ article > h3,
   text-transform: uppercase;
   color: #bed2e4;
   line-height: 20.48px;
+  transition: all 0.5s;
+}
+
+.header__menu li:hover {
+  color: #4da533;
 }
 
 .header__menu-list li + li {
@@ -260,12 +271,22 @@ article > h3,
   color: #ffffff;
   white-space: nowrap;
   margin-right: 10px;
+  transition: all 0.5s;
 }
 
 .header__country {
   color: #ffffff;
   line-height: 20.48px;
   white-space: nowrap;
+  transition: all 0.5s;
+}
+
+.header__country:hover {
+  color: #4da533;
+}
+
+.header__time:hover {
+  color: #4da533;
 }
 
 .header__btn {
