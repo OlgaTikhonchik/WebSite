@@ -160,6 +160,7 @@
 
   .main .main__arrow {
     right: 5px;
+    bottom: 20px;
     width: 40px;
     height: 40px;
     border-radius: 6px;
@@ -168,6 +169,56 @@
 
   .main__wrapper {
     padding: 15px;
+  }
+
+  .footer__data-copyright {
+    width: 40%;
+  }
+
+  .footer__mobile {
+    padding: 13px;
+  }
+
+  .footer__support img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  .footer__mobile {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .footer__age {
+    display: none;
+  }
+
+  .footer__network {
+    border-right: 0;
+  }
+}
+
+@media screen and (max-width: 849px) {
+  .footer__support {
+    padding: 0 15px;
+  }
+
+  .footer__data-copyright {
+    padding: 10px 15px;
+  }
+
+  .footer__support div {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+  }
+
+  .footer__support p a {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
@@ -178,7 +229,16 @@
 
   .header__btn {
     display: inline-block;
-    margin-right: 0;
+    /* margin: 0;
+    margin-top: 20px;
+    white-space: wrap; */
+  }
+
+  .header__btn a {
+    display: block;
+    min-width: 200px;
+
+    margin: 0;
     margin-top: 20px;
     white-space: wrap;
   }
@@ -275,6 +335,34 @@
   .features__subtitle {
     font-size: 16px;
   }
+
+  .footer__support img {
+    margin-right: 15px;
+  }
+
+  .footer__support p a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .footer__mobile {
+    display: none;
+  }
+
+  .footer__box {
+    flex-direction: column;
+  }
+
+  .footer__age {
+    display: block;
+    border-top: 8px solid #102a2e;
+    border-bottom: 0;
+    padding: 10px;
+  }
+  .footer__network {
+    border-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 567px) {
@@ -314,6 +402,25 @@
     min-width: 200px;
     padding: 10px 20px;
   }
+
+  .footer__support {
+    flex-direction: column;
+  }
+
+  .footer__support img {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .footer__network {
+    display: none;
+  }
+
+  .footer__age {
+    border-top: 0;
+    padding-bottom: 80px;
+  }
 }
 
 @media screen and (max-width: 490px) {
@@ -343,6 +450,28 @@
 
   .hero__background {
     max-width: 480px;
+  }
+
+  .footer__menu {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .footer__menu li {
+    flex: 1 1 calc(50% - 10px);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 473px) {
+  .footer__age {
+    display: none;
+  }
+  .footer__boxes {
+    border-left: 0;
+  }
+  .footer__data-copyright {
+    width: 60%;
   }
 }
 

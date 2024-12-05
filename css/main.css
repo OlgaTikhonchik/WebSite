@@ -931,7 +931,7 @@ table td:last-child {
   border-right: 8px solid #102a2e;
   font-size: 12px;
   line-height: 14.06px;
-  /* min-width: 843px; */
+
   width: 60%;
   color: #9398a0;
   padding: 24px 30px;
@@ -946,7 +946,7 @@ table td:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* min-width: 284px; */
+
   color: #373c47;
   padding: 20px 32px 20px 19px;
 }
@@ -955,6 +955,7 @@ table td:last-child {
   width: 48px;
   height: 48px;
   margin-right: 26px;
+  margin-left: 5px;
 }
 
 .footer__support div {
@@ -1001,8 +1002,6 @@ table td:last-child {
 }
 
 .footer__boxes {
-  /* min-width: 454px; */
-
   border-left: 8px solid #102a2e;
 }
 
