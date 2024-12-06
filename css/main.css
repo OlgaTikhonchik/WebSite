@@ -436,11 +436,12 @@ svg {
   right: 9.5px;
   width: 13px;
   height: 13px;
-  background: url(../images/main/ButtonDown.svg);
+  background: url(../images/main/ButtonDown.svg) no-repeat center center /
+    contain;
 }
 
 .sidebar__desk.active::after {
-  background: url(../images/main/ButtonUp.svg);
+  background: url(../images/main/ButtonUp.svg) no-repeat center center / contain;
 }
 
 .sidebar__list {

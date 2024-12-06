@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
 // menu__review-content
 
 document.addEventListener("DOMContentLoaded", function () {
-  const button = document.querySelector(".menu__review-content");
-  const list = document.querySelector(".menu__review-list");
+  const button = document.querySelector(".page-nav-desk");
+  const list = document.querySelector(".page-nav-list");
 
   button.addEventListener("click", function () {
     const isActive = list.classList.contains("active");
