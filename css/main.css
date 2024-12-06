@@ -399,7 +399,7 @@ svg {
 .hero__span {
   font-size: 10px;
   line-height: 15px;
-  white-space: nowrap;
+  white-space: wrap;
 }
 /* -------------sidebar------------- */
 
