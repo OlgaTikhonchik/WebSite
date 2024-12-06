@@ -561,7 +561,7 @@ svg {
   gap: 10px;
 }
 
-.menu-review__content {
+.page-nav {
   display: none;
   padding: 0;
 }
@@ -582,9 +582,9 @@ svg {
   margin: 0 auto;
 }
 
-.info__title,
+.about__title,
 .features__title,
-.review__title,
+.article__title,
 .ratings__title,
 .faq__title {
   border: 2px solid #008795;
@@ -596,14 +596,14 @@ table {
   width: 100%;
   display: flex;
 }
-.info__group {
+.about__group {
   display: flex;
   flex-direction: column;
   width: 50%;
   border: 2px solid #008795;
   border-radius: 6px;
 }
-.info__group + .info__group {
+.about__group + .about__group {
   margin-left: 20px;
 }
 
@@ -734,22 +734,22 @@ table td:last-child {
   line-height: 15px;
   color: #ffffff;
 }
-/* ------review---------- */
-.reviev__text {
+/* ------article---------- */
+.article__text {
   line-height: 30px;
 }
 
-.reviev__text a {
+.article__text a {
   color: #4ea522;
 }
 
-.review ul li {
+.article ul li {
   position: relative;
   padding-left: 10px;
   margin-bottom: 8px;
 }
 
-.review ul li::before {
+.article ul li::before {
   content: "-";
   display: inline-block;
   position: absolute;
@@ -757,7 +757,7 @@ table td:last-child {
   left: 0;
 }
 
-.review__button,
+.article__button,
 .ratings__button {
   display: inline-block;
   min-width: 200px;
@@ -765,7 +765,7 @@ table td:last-child {
   margin-top: 16px;
 }
 
-.review__subtitle {
+.article__subtitle {
   font-size: 20px;
   line-height: 24px;
   text-align: left;

@@ -28,7 +28,7 @@
     display: none;
   }
 
-  .menu-review__content {
+  .page-nav {
     display: block;
   }
 }
@@ -255,12 +255,12 @@
     display: block;
   }
 
-  .info__group {
+  .about__group {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  .info__group + .info__group {
+  .about__group + .about__group {
     margin-left: 0;
   }
 
@@ -323,9 +323,9 @@
     line-height: 22px;
   }
 
-  .content .info__title,
+  .content .about__title,
   .content .features__title,
-  .content .review__title,
+  .content .article__title,
   .content .ratings__title,
   .content .faq__title {
     font-size: 20px;
@@ -375,11 +375,11 @@
     right: 35%;
   }
 
-  .info__content,
+  .about,
   .article,
   .features,
   .banner,
-  .review,
+  .article,
   .ratings,
   .faq,
   .header__content {
