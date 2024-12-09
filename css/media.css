@@ -216,7 +216,7 @@
     line-height: 14px;
   }
 
-  .footer__support p a {
+  .footer__support a {
     font-size: 16px;
     line-height: 20px;
   }
@@ -340,7 +340,7 @@
     margin-right: 15px;
   }
 
-  .footer__support p a {
+  .footer__support a {
     font-size: 12px;
   }
 }
