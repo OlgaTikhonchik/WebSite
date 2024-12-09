@@ -179,6 +179,7 @@ article > h3,
   position: relative;
   flex: 0 0 113px;
   margin-right: 147px;
+  padding: 20px 0;
   transition: all 0.5s;
 }
 
@@ -212,13 +213,19 @@ article > h3,
   display: block;
   text-align: left;
   text-transform: uppercase;
-  color: #bed2e4;
+
   line-height: 20.48px;
-  padding: 20px 5px;
+
   transition: all 0.5s;
 }
 
-.header__menu li:hover {
+.header__menu-list li a {
+  display: block;
+  color: #bed2e4;
+  padding: 20px 0;
+}
+
+.header__menu li a:hover {
   color: #4da533;
 }
 
@@ -230,9 +237,14 @@ article > h3,
   display: flex;
   margin-left: auto;
   justify-content: flex-end;
-  gap: 5px;
+  gap: 10px;
   overflow: hidden;
   margin-right: 10px;
+}
+
+.header__btn-list li a {
+  display: block;
+  padding: 10px 0;
 }
 
 .header__btn-list img {
@@ -244,7 +256,7 @@ article > h3,
   transition: all 0.5s;
 }
 
-.header__btn-list img:hover {
+.header__btn-list a:hover img {
   background: #4c787d;
 }
 
@@ -257,7 +269,6 @@ article > h3,
   border-radius: 3px;
   padding: 8px 27px;
   margin-right: 10px;
-  /* margin: auto 12px auto 0; */
 }
 
 .header__button-registr {
@@ -714,6 +725,9 @@ table td:last-child {
 
   text-align: center;
   padding: 91px 48px;
+  z-index: 2;
+
+  flex: 1 1 auto;
 }
 
 .banner__title {
@@ -734,6 +748,7 @@ table td:last-child {
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 1;
 }
 
 .banner__title > *:last-child {
@@ -745,6 +760,7 @@ table td:last-child {
 
 .banner__button {
   margin-bottom: 8px;
+  z-index: 3;
 }
 
 .banner__button:hover {
