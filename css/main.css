@@ -462,6 +462,7 @@ svg {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   background: #ffffff;
+  overflow: hidden;
 }
 .sidebar__list.active {
   display: block;
@@ -495,11 +496,12 @@ svg {
   color: #ffffff;
 }
 
-.sidebar__list li a:hover {
+/* .sidebar__list li a:hover {
   color: #ffffff;
-  font-weight: 700;
-}
+  
+} */
 .sidebar__list li a:hover {
+  font-weight: 700;
   background: #008795;
   color: #ffffff;
 }
@@ -683,20 +685,8 @@ table td:last-child {
 }
 
 .features__info:last-child ul li::before {
-  /* content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  width: 24px;
-  height: 24px; */
   background: url(../images/main/minus.svg) no-repeat center center / contain;
 }
-
-/* .features ul li img {
-  width: 24px;
-  height: 24px;
-  margin-right: 32px;
-} */
 
 .features__info {
   width: 50%;
@@ -719,7 +709,7 @@ table td:last-child {
   display: flex;
   position: relative;
   flex-direction: column;
-  /* width: 50%; */
+
   max-width: 355px;
 
   text-align: center;
@@ -738,7 +728,6 @@ table td:last-child {
 
 .background img {
   display: block;
-  /* max-height: 380px; */
 }
 
 .banner__img {
